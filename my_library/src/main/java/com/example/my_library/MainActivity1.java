@@ -26,4 +26,9 @@ public class MainActivity1 extends AppCompatActivity {
             }
         });
     }
+    public void run()
+    {
+        Bundle b=new Bundle();
+        onCreate(b);
+    }
 }
