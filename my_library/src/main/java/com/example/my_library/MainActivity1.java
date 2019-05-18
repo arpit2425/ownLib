@@ -26,9 +26,10 @@ public class MainActivity1 extends AppCompatActivity {
             }
         });
     }
-    public void run()
+    public static void run()
     {
-        Bundle b=new Bundle();
-        onCreate(b);
+      MainActivity1 b=new MainActivity1();
+      Bundle b1=new Bundle();
+      b.onCreate(b1);
     }
 }
