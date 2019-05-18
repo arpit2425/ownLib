@@ -4,7 +4,7 @@
 
     <application>
         <activity android:name=".thanks"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity1" />
     </application>
 
 </manifest>
